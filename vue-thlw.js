@@ -10,7 +10,14 @@ Vue.createApp({
   data() {
     return {
       characters: [],
-      weak_element: [],
+      EA: false,
+      FI: false,
+      ME: false,
+      MO: false,
+      ST: false,
+      SU: false,
+      WA: false,
+      WO: false,
       name: "",
       spread_target: "Solo",
       spread_p0: "",
@@ -69,8 +76,11 @@ Vue.createApp({
       this.reset()
     },
     highlight(raw_elem) {
-      let element = raw_elem.substring(2, 4)
-      if(this.weak_element.includes(element)) return element
+      let element = raw_elem.substring(2,4)
+      if(this[element]) return element
+    },
+    toggleWeakElement(element) {
+      this[element] = !this[element]
     },
     reset(){
       this.name = ""

@@ -6,39 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Touhou Lost Word - Scarlet Tower</title>
   <style>
-    td,th {
-    border: 1px solid rgb(190, 190, 190);
-    padding: 5px;
-    }
-
-    td {
-        text-align: center;
-    }
-
-    tr:nth-child(even) {
-        background-color: #eee;
-    }
-
-    th[scope="col"] {
-        background-color: #696969;
-        color: #fff;
-    }
-
-    th[scope="row"] {
-        background-color: #d7d9f2;
-    }
-
-    caption {
-        padding: 10px;
-        caption-side: bottom;
-    }
-
-    table {
-        border-collapse: collapse;
-        border: 2px solid rgb(200, 200, 200);
-        letter-spacing: 1px;
-        font-family: sans-serif;
-        font-size: .75rem;
+    select{
+      width: 4em;
+      height: 13em;
+      scrollbar-width: none;
     }
 
     .EA{
@@ -72,282 +43,114 @@
     .WO{
       background-color: #7ab964;
     }
+
+    body{
+      font-family: sans-serif;
+      margin-top: 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 2.25fr repeat(25, 1fr);
+      border: 1px solid black;
+    }
+
+    .grid > * {
+      border: 1px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .span-row-grid-2{
+      grid-row: span 2;
+    }
+
+    .span-column-grid-5 {
+      grid-column: span 5;
+    }
+
+    .elements {
+      flex-direction: column;
+    }
+
+    .expand{
+      display: flex;
+      height: 100%;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      padding: 3px;
+      box-sizing: border-box;
+    }
+
+    .left-align {
+      justify-content: left;
+      align-items: center;
+    }
+
+    .sticky {
+      position: sticky;
+      top: 0;
+      background-color: lightgrey;
+    }
+
+    .table-header {
+      top: 100px;
+    }
+
+    .table-subheader {
+      top: 126px;
+    }
+
+    .inactive {
+      opacity: 0.5;
+    }
   </style>
 </head>
 <body>
   <div id="app">
-    <table>
-      <tr>
-        <th rowspan="2">Name</th>
-        <th colspan="17">Spread</th>
-        <th colspan="17">Focus</th>
-        <th colspan="17">Spell Card 1</th>
-        <th colspan="17">Spell Card 2</th>
-        <th colspan="17">Last Word</th>
-      </tr>
-      <tr>
-        <td>Type</td>
-        <td>0</td>
-        <td colspan="4">1</td>
-        <td colspan="5">2</td>
-        <td colspan="6">3</td>
-        <td>Type</td>
-        <td>0</td>
-        <td colspan="4">1</td>
-        <td colspan="5">2</td>
-        <td colspan="6">3</td>
-        <td>Type</td>
-        <td>0</td>
-        <td colspan="4">1</td>
-        <td colspan="5">2</td>
-        <td colspan="6">3</td>
-        <td>Type</td>
-        <td>0</td>
-        <td colspan="4">1</td>
-        <td colspan="5">2</td>
-        <td colspan="6">3</td>
-        <td>Type</td>
-        <td>0</td>
-        <td colspan="4">1</td>
-        <td colspan="5">2</td>
-        <td colspan="6">3</td>
-      </tr>
-      <tr v-for="character in characters">
-        <td>{{ character.name }}</td>
-        <template v-for="attack in character.attacks">
-          <td>{{ attack.target }}</td>
+    <div class="sticky">
+      <img @click="toggleWeakElement('EA')" :class="{ inactive: !EA }" src="static/EA.png" alt="Earth">
+      <img @click="toggleWeakElement('FI')" :class="{ inactive: !FI }" src="static/FI.webp" alt="Fire">
+      <img @click="toggleWeakElement('ME')" :class="{ inactive: !ME }" src="static/ME.webp" alt="Metal">
+      <img @click="toggleWeakElement('MO')" :class="{ inactive: !MO }" src="static/MO.webp" alt="Moon">
+      <img @click="toggleWeakElement('ST')" :class="{ inactive: !ST }" src="static/ST.webp" alt="Star">
+      <img @click="toggleWeakElement('SU')" :class="{ inactive: !SU }" src="static/SU.webp" alt="Sun">
+      <img @click="toggleWeakElement('WA')" :class="{ inactive: !WA }" src="static/WA.png" alt="Water">
+      <img @click="toggleWeakElement('WO')" :class="{ inactive: !WO }" src="static/WO.png" alt="Wood">
+    </div>
 
-          <template v-for="(elements, index) in attack.boost">
-            <template v-if="index == 0">
-              <td :class="highlight(elements)">{{ elements }}</td>
-            </template>
-            <template v-else-if="index == 1">
-              <template v-if="elements == ''">
-                <td colspan="4"></td>
-              </template>
-              <template v-else-if="elements.length == 1">
-                <td colspan="4" :class="highlight(elements[0])">{{ elements[0] }} </td>
-              </template>
-              <template v-else-if="elements.length == 2">
-                <template v-for="element in elements">
-                  <td colspan="2" :class="highlight(element)">{{ element }}</td>
-                </template>
-              </template>
-              <template v-else-if="elements.length == 3">
-                <td :class="highlight(elements[0])">{{ elements[0] }}</td>
-                <td colspan="2" :class="highlight(elements[1])">{{ elements[1] }}</td>
-                <td :class="highlight(elements[2])">{{ elements[2] }}</td>
-              </template>
-              <template v-else-if="elements.length == 4">
-                <template v-for="element in elements">
-                  <td :class="highlight(element)">{{ element }}</td>
-                </template>
-              </template>
-            </template>
-            <template v-else-if="index == 2">
-              <template v-if="elements == ''">
-                <td colspan="5"></td>
-              </template>
-              <template v-else-if="elements.length == 1">
-                <td colspan="5" :class="highlight(elements[0])">{{ elements[0] }} </td>
-              </template>
-              <template v-else-if="elements.length == 2">
-                  <td colspan="3" :class="highlight(elements[0])">{{ elements[0] }}</td>
-                  <td colspan="2" :class="highlight(elements[1])">{{ elements[1] }}</td>
-              </template>
-              <template v-else-if="elements.length == 3">
-                <td :class="highlight(elements[0])">{{ elements[0] }}</td>
-                <td colspan="3" :class="highlight(elements[1])">{{ elements[1] }}</td>
-                <td :class="highlight(elements[2])">{{ elements[2] }}</td>
-              </template>
-              <template v-else-if="elements.length == 4">
-                <template v-for="(element, elemindex) in elements">
-                  <template v-if="elemindex == 0">
-                    <td colspan="2" :class="highlight(element)"> {{ element }}</td>
-                  </template>
-                  <template v-else>
-                    <td :class="highlight(element)">{{ element }}</td>
-                  </template>
-                </template>
-              </template>
-              <template v-else-if="elements.length == 5">
-                <template v-for="element in elements">
-                  <td :class="highlight(element)">{{ element }}</td>
-                </template>
-              </template>
-            </template>
-            <template v-else-if="index == 3">
-              <template v-if="elements == ''">
-                <td colspan="6"></td>
-              </template>
-              <template v-else-if="elements.length == 1">
-                <td colspan="6" :class="highlight(elements[0])">{{ elements[0] }} </td>
-              </template>
-              <template v-else-if="elements.length == 2">
-                <template v-for="element in elements">
-                  <td colspan="3" :class="highlight(element)">{{ element }}</td>
-                </template>
-              </template>
-              <template v-else-if="elements.length == 3">
-                <template v-for="element in elements">
-                  <td colspan="2" :class="highlight(element)">{{ element }}</td>
-                </template>
-              </template>
-              <template v-else-if="elements.length == 4">
-                <template v-for="(element, elemindex) in elements">
-                  <template v-if="elemindex == 0 || elemindex == 3">
-                    <td :class="highlight(element)">{{ element }}</td>
-                  </template>
-                  <template v-else>
-                    <td colspan="2" :class="highlight(element)">{{ element }}</td>
-                  </template>
-                </template>
-              </template>
-              <template v-else-if="elements.length == 5">
-                <template v-for="(element, elemindex) in elements">
-                  <template v-if="elemindex == 2">
-                    <td colspan="2" :class="highlight(element)">{{ element }}</td>
-                  </template>
-                  <template v-else>
-                    <td :class="highlight(element)">{{ element }}</td>
-                  </template>
-                </template>
-              </template>
-              <template v-else-if="elements.length == 6">
-                <template v-for="element in elements">
-                  <td :class="highlight(element)">{{ element }}</td>
-                </template>
-              </template>
-            </template>
-          </template>
+    <div class="grid">
+      <div class="sticky table-header expand span-row-grid-2">Name</div>
+      <div class="sticky table-header expand span-column-grid-5">Spread</div>
+      <div class="sticky table-header expand span-column-grid-5">Focus</div>
+      <div class="sticky table-header expand span-column-grid-5">Spell Card 1</div>
+      <div class="sticky table-header expand span-column-grid-5">Spell Card 2</div>
+      <div class="sticky table-header expand span-column-grid-5">Last Word</div>
+      <template v-for="n in 5">
+        <template v-for="i in 5">
+          <div class="sticky table-subheader expand" v-if="i-2 == -1">Target</div>
+          <div class="sticky table-subheader expand" v-else>{{ i-2 }}</div>
         </template>
-      </tr>
-    </table>
-    <table>
-      <tr>
-        <td colspan="2">Name</td>
-        <td colspan="2">Spread</td>
-        <td colspan="2">Focus</td>
-        <td colspan="2">SC1</td>
-        <td colspan="2">SC2</td>
-        <td colspan="2">LW</td>
-      </tr>
-      <tr>
-        <td rowspan="6"><label for="Name">Name:</label></td>
-        <td rowspan="6"><input type="text" id="Name" tabindex="1" v-model="name"></td>
-      </tr>
-      <tr>
-        <td><label for="SpreadTarget">Target</label></td>
-        <td>
-          <select name="SpreadTarget" id="SpreadTarget" tabindex="2" v-model="spread_target">
-            <option disabled value="">Please select one</option>
-            <option value="Solo">Solo</option>
-            <option value="All">All</option>
-            <option value="Aid">Aid</option>
-          </select>
-        </td>
-        <td><label for="FocusTarget">Target</label></td>
-        <td>
-          <select name="FocusTarget" id="FocusTarget" tabindex="7" v-model="focus_target">
-            <option disabled value="">Please select one</option>
-            <option value="Solo">Solo</option>
-            <option value="All">All</option>
-            <option value="Aid">Aid</option>
-          </select>
-        </td>
-        <td><label for="SC1Target">Target</label></td>
-        <td>
-          <select name="SC1Target" id="SC1Target" tabindex="12" v-model="SC1_target">
-            <option disabled value="">Please select one</option>
-            <option value="Solo">Solo</option>
-            <option value="All">All</option>
-            <option value="Aid">Aid</option>
-          </select>
-        </td>
-        <td><label for="SC2Target">Target</label></td>
-        <td>
-          <select name="SC2Target" id="SC2Target" tabindex="17" v-model="SC2_target">
-            <option disabled value="">Please select one</option>
-            <option value="Solo">Solo</option>
-            <option value="All">All</option>
-            <option value="Aid">Aid</option>
-          </select>
-        </td>
-        <td><label for="LWTarget">Target</label></td>
-        <td>
-          <select name="LWTarget" id="LWTarget" tabindex="22" v-model="LW_target">
-            <option disabled value="">Please select one</option>
-            <option value="Solo">Solo</option>
-            <option value="All">All</option>
-            <option value="Aid">Aid</option>
-          </select>
-        </td>
-      </tr>
-      <tr>
-        <td><label for="SpreadP0">P0</label></td>
-        <td><input type="text" id="SpreadP0" tabindex="3" v-model="spread_p0"></td>
-        <td><label for="FocusP0">P0</label></td>
-        <td><input type="text" id="FocusP0" tabindex="8" v-model="focus_p0"></td>
-        <td><label for="SC1P0">P0</label></td>
-        <td><input type="text" id="SC1P0" tabindex="13" v-model="SC1_p0"></td>
-        <td><label for="SC2P0">P0</label></td>
-        <td><input type="text" id="SC2P0" tabindex="18" v-model="SC2_p0"></td>
-        <td><label for="LWP0">P0</label></td>
-        <td><input type="text" id="LWP0" tabindex="23" v-model="LW_p0"></td>
-      </tr>
-      <tr>
-        <td><label for="SpreadP1">P1</label></td>
-        <td><input type="text" id="SpreadP1" tabindex="4" v-model="spread_p1"></td>
-        <td><label for="FocusP1">P1</label></td>
-        <td><input type="text" id="FocusP1" tabindex="9" v-model="focus_p1"></td>
-        <td><label for="SC1P1">P1</label></td>
-        <td><input type="text" id="SC1P1" tabindex="14" v-model="SC1_p1"></td>
-        <td><label for="SC2P1">P1</label></td>
-        <td><input type="text" id="SC2P1" tabindex="19" v-model="SC2_p1"></td>
-        <td><label for="LWP1">P1</label></td>
-        <td><input type="text" id="LWP1" tabindex="24" v-model="LW_p1"></td>
-      </tr>
-      <tr>
-        <td><label for="SpreadP2">P2</label></td>
-        <td><input type="text" id="SpreadP2" tabindex="5" v-model="spread_p2"></td>
-        <td><label for="FocusP2">P2</label></td>
-        <td><input type="text" id="FocusP2" tabindex="10" v-model="focus_p2"></td>
-        <td><label for="SC1P2">P2</label></td>
-        <td><input type="text" id="SC1P2" tabindex="15" v-model="SC1_p2"></td>
-        <td><label for="SC2P2">P2</label></td>
-        <td><input type="text" id="SC2P2" tabindex="20" v-model="SC2_p2"></td>
-        <td><label for="LWP2">P2</label></td>
-        <td><input type="text" id="LWP2" tabindex="25"v-model="LW_p2"></td>
-      </tr>
-      <tr>
-        <td><label for="SpreadP3">P3</label></td>
-        <td><input type="text" id="SpreadP3" tabindex="6" v-model="spread_p3"></td>
-        <td><label for="FocusP3">P3</label></td>
-        <td><input type="text" id="FocusP3" tabindex="11" v-model="focus_p3"></td>
-        <td><label for="SC1P3">P3</label></td>
-        <td><input type="text" id="SC1P3" tabindex="16" v-model="SC1_p3"></td>
-        <td><label for="SC2P3">P3</label></td>
-        <td><input type="text" id="SC2P3" tabindex="21" v-model="SC2_p3"></td>
-        <td><label for="LWP3">P3</label></td>
-        <td><input type="text" id="LWP3" tabindex="26" v-model="LW_p3"></td>
-      </tr>
-    </table>
-    <button @click="add_character">Add</button>
-    <button @click="save">Save</button>
-
-    <div>
-      <select v-model="weak_element" multiple="true">
-        <option value="EA">Earth</option>
-        <option value="FI">Fire</option>
-        <option value="ME">Metal</option>
-        <option value="MO">Moon</option>
-        <option value="ST">Star</option>
-        <option value="SU">Sun</option>
-        <option value="WA">Water</option>
-        <option value="WO">Wood</option>
-      </select>
+      </template>
+      <template v-for="character in characters">
+        <div class="expand left-align">{{ character.name }}</div>
+        <template v-for="attack in character.attacks">
+          <div>{{ attack.target }}</div>
+          <div class="elements" v-for="(elements, index) in attack.boost">
+            <template v-if="index == 0">
+              <div class="expand" :class="highlight(elements)">{{ elements }}</div>
+            </template>
+            <template v-else v-for="element in elements">
+              <div class="expand" :class="highlight(element)">{{ element }}</div>
+            </template>
+          </div>
+        </template>
+      </template>
     </div>
   </div>
-  <script src="https://unpkg.com/vue@3"></script>
+  <!-- <script src="https://unpkg.com/vue@3"></script> -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
   <script src="vue-thlw.js"></script>
 </html>
