@@ -119,7 +119,7 @@ Vue.createApp({
     }
   },
   created() {
-    fetch("https://kazahara.github.io/character_elements.json")
+    fetch("character_elements.json")
       .then(response => response.json())
       .then(characters => {
         this.characters = characters
