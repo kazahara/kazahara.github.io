@@ -64,8 +64,8 @@ Vue.createApp({
     }
   },
   mounted() {
-    // fetch("https://kazahara.github.io/touhou-character-elements/character_elements.json")
-    fetch("http://localhost:8000/character_elements.json")
+    fetch("https://kazahara.github.io/touhou-character-elements/character_elements.json")
+    // fetch("http://localhost:8000/character_elements.json")
       .then(response => response.json())
       .then(characters => {
         if(localStorage.getItem("owned_characters")){
