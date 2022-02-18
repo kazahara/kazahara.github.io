@@ -131,6 +131,10 @@ body{
   column-gap: 20px;
 }
 
+.header > :first-child{
+  flex-grow: 2;
+}
+
 .checkbox-label{
   display: flex;
   column-gap: 5px;
