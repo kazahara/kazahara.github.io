@@ -5,120 +5,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Touhou Lost Word - Scarlet Tower</title>
-  <style>
-    select{
-      width: 4em;
-      height: 13em;
-      scrollbar-width: none;
-    }
-
-    .EA{
-      background-color: #ad6f5e;
-    }
-
-    .FI{
-      background-color: #e2716d;
-    }
-
-    .ME{
-      background-color: #f4d625;
-    }
-
-    .MO{
-      background-color: #a26fd0;
-    }
-
-    .ST{
-      background-color: #d1b370;
-    }
-
-    .SU{
-      background-color: #f5f6af;
-    }
-
-    .WA{
-      background-color: #6bbdde;
-    }
-
-    .WO{
-      background-color: #7ab964;
-    }
-
-    body{
-      font-family: sans-serif;
-      margin-top: 0;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: 2.25fr repeat(25, 1fr);
-      border: 1px solid black;
-    }
-
-    .grid > * {
-      border: 1px solid black;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .span-row-grid-2{
-      grid-row: span 2;
-    }
-
-    .span-column-grid-5 {
-      grid-column: span 5;
-    }
-
-    .elements {
-      flex-direction: column;
-    }
-
-    .expand{
-      display: flex;
-      height: 100%;
-      width: 100%;
-      justify-content: center;
-      align-items: center;
-      padding: 3px;
-      box-sizing: border-box;
-    }
-
-    .left-align {
-      justify-content: left;
-      align-items: center;
-    }
-
-    .sticky {
-      position: sticky;
-      top: 0;
-      background-color: lightgrey;
-    }
-
-    .table-header {
-      top: 100px;
-    }
-
-    .table-subheader {
-      top: 126px;
-    }
-
-    .inactive {
-      opacity: 0.5;
-    }
-  </style>
+  <link rel="stylesheet" href="static/styles.css">
 </head>
 <body>
   <div id="app">
-    <div class="sticky">
-      <img @click="toggleWeakElement('EA')" :class="{ inactive: !EA }" src="static/EA.png" alt="Earth">
-      <img @click="toggleWeakElement('FI')" :class="{ inactive: !FI }" src="static/FI.webp" alt="Fire">
-      <img @click="toggleWeakElement('ME')" :class="{ inactive: !ME }" src="static/ME.webp" alt="Metal">
-      <img @click="toggleWeakElement('MO')" :class="{ inactive: !MO }" src="static/MO.webp" alt="Moon">
-      <img @click="toggleWeakElement('ST')" :class="{ inactive: !ST }" src="static/ST.webp" alt="Star">
-      <img @click="toggleWeakElement('SU')" :class="{ inactive: !SU }" src="static/SU.webp" alt="Sun">
-      <img @click="toggleWeakElement('WA')" :class="{ inactive: !WA }" src="static/WA.png" alt="Water">
-      <img @click="toggleWeakElement('WO')" :class="{ inactive: !WO }" src="static/WO.png" alt="Wood">
+    <div class="sticky filter">
+      <img @click="toggle_weak_element('EA')" :class="{ inactive: !EA }" src="static/EA.png" alt="Earth">
+      <img @click="toggle_weak_element('FI')" :class="{ inactive: !FI }" src="static/FI.webp" alt="Fire">
+      <img @click="toggle_weak_element('ME')" :class="{ inactive: !ME }" src="static/ME.webp" alt="Metal">
+      <img @click="toggle_weak_element('MO')" :class="{ inactive: !MO }" src="static/MO.webp" alt="Moon">
+      <img @click="toggle_weak_element('ST')" :class="{ inactive: !ST }" src="static/ST.webp" alt="Star">
+      <img @click="toggle_weak_element('SU')" :class="{ inactive: !SU }" src="static/SU.webp" alt="Sun">
+      <img @click="toggle_weak_element('WA')" :class="{ inactive: !WA }" src="static/WA.png" alt="Water">
+      <img @click="toggle_weak_element('WO')" :class="{ inactive: !WO }" src="static/WO.png" alt="Wood">
+      <div>
+        <button @click="show_modal">Edit Owned Characters</button>
+        <div class="checkbox-label">
+          <input type="checkbox" id="displayNamesOnly" v-model="display_names_only" />
+          <label for="displayNamesOnly">Display Names Only</label>
+        </div>
+        <div class="checkbox-label">
+          <input type="checkbox" id="displayAllCharacters" v-model="display_all_characters" />
+          <label for="displayAllCharacters">Display All Characters</label>
+        </div>
+      </div>
     </div>
 
     <div class="grid">
@@ -134,8 +44,11 @@
           <div class="sticky table-subheader expand" v-else>{{ i-2 }}</div>
         </template>
       </template>
-      <template v-for="character in characters">
-        <div class="expand left-align">{{ character.name }}</div>
+      <template v-for="character in filtered_characters">
+        <div class="expand left-align">
+          <img v-show="!display_names_only" :src="character.image" :alt="character.name">
+          <p v-show="display_names_only"> {{ character.name }} </p>
+        </div>
         <template v-for="attack in character.attacks">
           <div>{{ attack.target }}</div>
           <div class="elements" v-for="(elements, index) in attack.boost">
@@ -149,8 +62,33 @@
         </template>
       </template>
     </div>
+
+    <div class="modal-backdrop" 
+     v-show="isModalVisible" 
+     @click.self="close_modal">
+      <div class="modal">
+        <div class="header">
+          <p>Owned Unique Characters: {{ owned_characters.length }} / {{ characters.length }}</p>
+          <div class="checkbox-label">
+            <input type="checkbox" id="checkbox" v-model="show_only_owned_characters" />
+            <label for="checkbox">Show Only Owned Characters</label>
+          </div>
+        </div>
+        <div class="image-grid">
+          <template v-for="(character,index) in sorted_characters">
+            <img 
+            v-show="(character.owned ^ false) || (show_only_owned_characters ^ true)" 
+            :class="{ inactive: !character.owned }"
+            :src="character.image" 
+            :alt="character.name" 
+            @click="toggle_owned_characters(character.name, index)"
+            >
+          </template>
+        </div>
+      </div>
+    </div>
   </div>
-  <!-- <script src="https://unpkg.com/vue@3"></script> -->
-  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <script src="https://unpkg.com/vue@3"></script>
+  <!-- <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script> -->
   <script src="vue-thlw.js"></script>
 </html>

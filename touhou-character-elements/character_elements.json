@@ -1,10 +1,10 @@
 [
   {
-    "name":"Alice",
-    "attacks":[
+    "name": "Alice",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -12,8 +12,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -21,8 +21,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -30,8 +30,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -39,22 +39,23 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
           ""
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/103201_Alice_Margatroid_SQ.png?itok=AtZy6i_k"
   },
   {
-    "name":"Aya",
-    "attacks":[
+    "name": "Aya",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -64,8 +65,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 WO"
@@ -75,8 +76,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           [
             "2 WO"
@@ -88,8 +89,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           [
             "2 WO"
@@ -101,8 +102,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           "",
           [
@@ -111,14 +112,15 @@
           ""
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-09/Chara_Square_Thumbnail_104401.png?itok=R8Smww_j"
   },
   {
-    "name":"Aya (Flower)",
-    "attacks":[
+    "name": "Aya (Flower)",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           "",
           [
@@ -132,8 +134,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 ME"
@@ -146,8 +148,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 SU",
           [
             "1 ME",
@@ -165,8 +167,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 SU",
           [
             "3 SU"
@@ -182,8 +184,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 SU",
           [
             "3 SU"
@@ -198,14 +200,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2022-01/Square_6_updated.png?itok=kNd8oJh-"
   },
   {
-    "name":"Benben",
-    "attacks":[
+    "name": "Benben",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           [
@@ -215,8 +218,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           [
@@ -226,8 +229,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           "",
           [
@@ -237,8 +240,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           "",
           [
@@ -248,8 +251,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 FI",
           [
             "1 FI",
@@ -265,14 +268,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-10/Chara_Square_Thumbnail_106701.png?itok=rCuWHLgg"
   },
   {
-    "name":"Byakuren",
-    "attacks":[
+    "name": "Byakuren",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -280,8 +284,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           [
@@ -293,8 +297,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 SU"
@@ -308,8 +312,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -317,22 +321,23 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
           ""
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-06/102401_Byakuren_Hijiri_SQ.png?itok=fqGTwgX9"
   },
   {
-    "name":"Chen",
-    "attacks":[
+    "name": "Chen",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -340,8 +345,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -349,8 +354,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -358,8 +363,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -367,22 +372,23 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
           ""
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/101401_Chen_SQ.png?itok=3M05uN2Q"
   },
   {
-    "name":"Cirno",
-    "attacks":[
+    "name": "Cirno",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 WA"
@@ -394,8 +400,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 WA"
@@ -407,8 +413,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WA",
           "",
           [
@@ -418,8 +424,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WA",
           [
             "2 WA"
@@ -431,8 +437,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WA",
           "",
           [
@@ -443,14 +449,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/103001_Cirno_SQ.png?itok=foPQ4Zdp"
   },
   {
-    "name":"Clownpiece",
-    "attacks":[
+    "name": "Clownpiece",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 WA"
@@ -465,8 +472,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           [
             "1 FI",
@@ -480,8 +487,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           [
@@ -494,8 +501,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           [
@@ -508,8 +515,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ST",
           [
             "1 MO",
@@ -527,14 +534,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-11/Chara_Square_Thumbnail_105801.png?itok=3Xucyhxj"
   },
   {
-    "name":"Daiyousei",
-    "attacks":[
+    "name": "Daiyousei",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -544,8 +552,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -555,8 +563,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ME",
           [
             "2 ME"
@@ -570,8 +578,8 @@
         ]
       },
       {
-        "target":"Aid",
-        "boost":[
+        "target": "Aid",
+        "boost": [
           "",
           "",
           "",
@@ -579,22 +587,23 @@
         ]
       },
       {
-        "target":"Aid",
-        "boost":[
+        "target": "Aid",
+        "boost": [
           "",
           "",
           "",
           ""
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/103101_Daiyousei_SQ.png?itok=tT4yfh6g"
   },
   {
-    "name":"Doremy",
-    "attacks":[
+    "name": "Doremy",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ST",
           [
             "2 ST"
@@ -606,8 +615,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           [
@@ -619,8 +628,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 EA",
           [
             "2 EA"
@@ -630,8 +639,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ST",
           [
             "2 ST"
@@ -641,8 +650,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 EA",
           [
             "1 EA",
@@ -655,14 +664,15 @@
           ""
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-08/Chara_Square_Thumbnail_108001.png?itok=Wx3r38xQ"
   },
   {
-    "name":"Eirin",
-    "attacks":[
+    "name": "Eirin",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -670,8 +680,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -681,8 +691,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 MO",
           "",
           "",
@@ -692,8 +702,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           "",
           "",
@@ -703,8 +713,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 MO",
           "",
           [
@@ -715,14 +725,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-08/Chara_Square_Thumbnail_101801.png?itok=9Qkr3lyw"
   },
   {
-    "name":"Flandre",
-    "attacks":[
+    "name": "Flandre",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -730,8 +741,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -739,8 +750,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           "",
           "",
@@ -750,8 +761,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -759,22 +770,23 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
           ""
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/100401_Flandre_Scarlet_SQ.png?itok=35doBi-J"
   },
   {
-    "name":"Mokou",
-    "attacks":[
+    "name": "Mokou",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           [
@@ -786,8 +798,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           "",
           "",
@@ -797,8 +809,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           "",
           [
@@ -810,8 +822,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 FI",
           "",
           "",
@@ -821,8 +833,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           "",
           [
@@ -833,14 +845,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-06/Chara_Square_Thumbnail_102001.png?itok=Q-XlnR69"
   },
   {
-    "name":"Kokoro",
-    "attacks":[
+    "name": "Kokoro",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -850,8 +863,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 EA",
           "",
           "",
@@ -859,8 +872,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 EA",
           [
             "1 EA",
@@ -877,8 +890,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 EA",
           [
             "2 EA",
@@ -892,8 +905,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 EA",
           [
             "3 EA",
@@ -909,14 +922,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-12/Chara_Square_Thumbnail_108701.png?itok=8soS7kCn"
   },
   {
-    "name":"Hatate",
-    "attacks":[
+    "name": "Hatate",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -926,8 +940,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -937,8 +951,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           "",
           [
@@ -948,8 +962,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           "",
           [
@@ -961,8 +975,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           "",
           "",
@@ -971,14 +985,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2022-01/Chara_Square_Thumbnail_104501_0.png?itok=oDnUfbPZ"
   },
   {
-    "name":"Akyuu",
-    "attacks":[
+    "name": "Akyuu",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           [
@@ -990,8 +1005,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 WO"
@@ -1003,8 +1018,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 WA"
@@ -1016,8 +1031,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 ME"
@@ -1029,8 +1044,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           [
             "1 FI",
@@ -1048,14 +1063,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-08/Chara_Square_Thumbnail_102901.png?itok=mPLhUunc"
   },
   {
-    "name":"Hina",
-    "attacks":[
+    "name": "Hina",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 FI"
@@ -1067,8 +1083,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           [
@@ -1080,8 +1096,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           [
             "2 WO"
@@ -1097,8 +1113,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "2 MO"
@@ -1108,8 +1124,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 SU",
           [
             "2 SU"
@@ -1120,14 +1136,15 @@
           ""
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-12/Chara_Square_Thumbnail_106101.png?itok=zC1cr8aM"
   },
   {
-    "name":"Meiling",
-    "attacks":[
+    "name": "Meiling",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -1137,8 +1154,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 EA",
           "",
           "",
@@ -1148,8 +1165,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "2 ST"
@@ -1161,8 +1178,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "2 EA"
@@ -1174,8 +1191,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 EA",
@@ -1191,14 +1208,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/100701_Hong_Meiling_SQ.png?itok=lMrr3c6t"
   },
   {
-    "name":"Iku",
-    "attacks":[
+    "name": "Iku",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           [
             "2 WO"
@@ -1211,8 +1229,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WA",
           "",
           [
@@ -1225,8 +1243,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           [
             "1 MO",
@@ -1243,8 +1261,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           [
             "1 MO",
@@ -1261,8 +1279,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           [
             "4 WO"
@@ -1275,14 +1293,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-12/Square_Thumbnail_109001.png?itok=E40F_Orx"
   },
   {
-    "name":"Joon",
-    "attacks":[
+    "name": "Joon",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -1290,8 +1309,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 ME"
@@ -1303,8 +1322,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 ME"
@@ -1316,8 +1335,8 @@
         ]
       },
       {
-        "target":"Aid",
-        "boost":[
+        "target": "Aid",
+        "boost": [
           "",
           "",
           "",
@@ -1325,8 +1344,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ME",
           "",
           "",
@@ -1335,14 +1354,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-10/Chara_Square_Thumbnail_106501_0.png?itok=zzRWQN8v"
   },
   {
-    "name":"Kaguya",
-    "attacks":[
+    "name": "Kaguya",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -1352,8 +1372,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 ME"
@@ -1363,8 +1383,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ME",
           "",
           "",
@@ -1374,8 +1394,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           "",
           "",
@@ -1385,8 +1405,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           "",
           [
@@ -1397,14 +1417,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-08/Chara_Square_Thumbnail_101901.png?itok=sUm3gHZ2"
   },
   {
-    "name":"Kanako",
-    "attacks":[
+    "name": "Kanako",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 WA"
@@ -1416,8 +1437,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 WO"
@@ -1429,8 +1450,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WA",
           "",
           [
@@ -1440,8 +1461,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           [
             "2 WO"
@@ -1451,8 +1472,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ME",
           "",
           [
@@ -1463,14 +1484,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-07/Chara_Square_Thumbnail_103801.png?itok=Wdr2Cxwv"
   },
   {
-    "name":"Kasen",
-    "attacks":[
+    "name": "Kasen",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -1478,8 +1500,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -1487,8 +1509,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WA",
           [
             "2 WA"
@@ -1500,8 +1522,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 EA",
           [
             "2 EA"
@@ -1513,8 +1535,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           [
             "2 FI"
@@ -1525,14 +1547,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-06/102501_Kasen_Ibaraki_SQ.png?itok=G0KEFcBd"
   },
   {
-    "name":"Keine",
-    "attacks":[
+    "name": "Keine",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -1540,8 +1563,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -1549,8 +1572,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ME",
           "",
           [
@@ -1560,8 +1583,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 SU",
           "",
           [
@@ -1571,8 +1594,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 SU",
           "",
           [
@@ -1581,14 +1604,15 @@
           ""
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-09/Chara_Square_Thumbnail_107201.png?itok=dB2-c3S-"
   },
   {
-    "name":"Koakuma",
-    "attacks":[
+    "name": "Koakuma",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 ME"
@@ -1600,8 +1624,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 WA"
@@ -1613,8 +1637,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           [
             "2 FI"
@@ -1626,8 +1650,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           [
             "2 FI"
@@ -1639,8 +1663,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 FI",
           [
             "2 FI",
@@ -1656,14 +1680,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-10/Chara_Square_Thumbnail_100801.png?itok=CzNwh9q-"
   },
   {
-    "name":"Koishi",
-    "attacks":[
+    "name": "Koishi",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -1671,8 +1696,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -1680,8 +1705,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WA",
           "",
           [
@@ -1691,8 +1716,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WA",
           "",
           [
@@ -1702,8 +1727,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WA",
           [
             "1 WA",
@@ -1719,14 +1744,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-09/Chara_Square_Thumbnail_105101.png?itok=ekeIC2GD"
   },
   {
-    "name":"Komachi",
-    "attacks":[
+    "name": "Komachi",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 ME"
@@ -1740,8 +1766,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           [
@@ -1753,8 +1779,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 WA"
@@ -1766,8 +1792,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           [
@@ -1777,8 +1803,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ME",
           "",
           [
@@ -1791,14 +1817,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-12/Chara_Square_Thumbnail_105401.png?itok=1Tv92c1n"
   },
   {
-    "name":"Kosuzu",
-    "attacks":[
+    "name": "Kosuzu",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 WO"
@@ -1810,8 +1837,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           [
@@ -1821,8 +1848,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           [
             "2 WO"
@@ -1834,8 +1861,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WA",
           [
             "2 WA"
@@ -1847,8 +1874,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WA",
           [
             "2 WA",
@@ -1864,14 +1891,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-08/Chara_Square_Thumbnail_102601.png?itok=Ea5tEoDJ"
   },
   {
-    "name":"Lily White",
-    "attacks":[
+    "name": "Lily White",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -1879,8 +1907,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           "",
           "",
@@ -1888,8 +1916,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           [
             "2 WO"
@@ -1901,8 +1929,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ST",
           "",
           "",
@@ -1912,8 +1940,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           "",
           "",
@@ -1922,14 +1950,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/101201_Lily_White_SQ.png?itok=A7bw52qb"
   },
   {
-    "name":"Luna Child",
-    "attacks":[
+    "name": "Luna Child",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -1939,8 +1968,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -1950,8 +1979,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           "",
           [
@@ -1961,8 +1990,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 MO",
           "",
           "",
@@ -1970,8 +1999,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           "",
           [
@@ -1982,14 +2011,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/103401_Luna_Child_SQ.png?itok=547wsF1q"
   },
   {
-    "name":"Lunasa",
-    "attacks":[
+    "name": "Lunasa",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           [
@@ -2001,8 +2031,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WA",
           "",
           [
@@ -2016,8 +2046,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 WO"
@@ -2029,8 +2059,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 WA"
@@ -2042,8 +2072,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WA",
           [
             "1 WA",
@@ -2059,14 +2089,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-12/Chara_Square_Thumbnail_106201.png?itok=g5m675UX"
   },
   {
-    "name":"Lyrica",
-    "attacks":[
+    "name": "Lyrica",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 WO"
@@ -2076,8 +2107,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           [
@@ -2087,8 +2118,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 WO"
@@ -2100,8 +2131,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 WA"
@@ -2113,8 +2144,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           [
             "1 WA",
@@ -2130,14 +2161,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-12/Chara_Square_Thumbnail_106401.png?itok=WcjMfx0G"
   },
   {
-    "name":"Mai",
-    "attacks":[
+    "name": "Mai",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ST",
           [
             "2 ST"
@@ -2147,8 +2179,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 WO"
@@ -2160,8 +2192,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 WO"
@@ -2175,8 +2207,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           [
             "1 ST",
@@ -2193,8 +2225,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           [
             "1 ST",
@@ -2210,14 +2242,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2022-02/Chara_Square_Thumbnail_107101.png?itok=rQ6YJPca"
   },
   {
-    "name":"Mamizou",
-    "attacks":[
+    "name": "Mamizou",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 EA",
           "",
           "",
@@ -2225,8 +2258,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -2236,8 +2269,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 EA",
           [
             "1 EA",
@@ -2256,8 +2289,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           [
             "1 EA",
@@ -2274,8 +2307,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 EA",
           [
             "2 EA"
@@ -2289,14 +2322,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-11/Chara_Square_Thumbnail_108201.png?itok=ure1eZvP"
   },
   {
-    "name":"Marisa",
-    "attacks":[
+    "name": "Marisa",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -2306,8 +2340,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -2317,8 +2351,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ST",
           "",
           "",
@@ -2326,8 +2360,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ST",
           "",
           "",
@@ -2335,8 +2369,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ST",
           "",
           "",
@@ -2345,14 +2379,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/100201_Marisa_Kirisame_SQ.png?itok=zCBNwCpQ"
   },
   {
-    "name":"Marisa (Enchanter)",
-    "attacks":[
+    "name": "Marisa (Enchanter)",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           [
             "1 FI",
@@ -2366,8 +2401,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ST",
           [
             "1 FI",
@@ -2381,8 +2416,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           [
             "2 FI"
@@ -2395,8 +2430,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ST",
           "",
           [
@@ -2407,8 +2442,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ST",
           [
             "1 FI",
@@ -2424,14 +2459,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-12/Chara_Square_Thumbnail_300201.png?itok=-uVN3DH9"
   },
   {
-    "name":"Marisa (Scarlet)",
-    "attacks":[
+    "name": "Marisa (Scarlet)",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 WA"
@@ -2447,8 +2483,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           [
             "1 FI",
@@ -2459,8 +2495,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ST",
           "",
           [
@@ -2472,8 +2508,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           [
             "1 FI",
@@ -2490,8 +2526,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WA",
           [
             "1 ST",
@@ -2507,14 +2543,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-12/Chara_Square_Thumbnail_400201.png?itok=HJAt-8U8"
   },
   {
-    "name":"Marisa (WOSD)",
-    "attacks":[
+    "name": "Marisa (WOSD)",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           "",
           [
@@ -2524,8 +2561,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WA",
           "",
           [
@@ -2535,8 +2572,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ST",
           [
             "1 FI",
@@ -2553,8 +2590,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ST",
           [
             "1 EA",
@@ -2571,8 +2608,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ST",
           [
             "2 ST",
@@ -2588,14 +2625,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-06/200201_Marisa_Kirisame_WoSD_SQ.png?itok=NJMizBW2"
   },
   {
-    "name":"Medicine",
-    "attacks":[
+    "name": "Medicine",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -2605,8 +2643,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -2616,8 +2654,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           [
             "2 WO"
@@ -2627,8 +2665,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           [
             "2 WO"
@@ -2638,8 +2676,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           [
             "2 WO"
@@ -2650,14 +2688,15 @@
           ""
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/103601_Medicine_Melancholy_SQ.png?itok=KNTPyZW5"
   },
   {
-    "name":"Merlin",
-    "attacks":[
+    "name": "Merlin",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 WO"
@@ -2667,8 +2706,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 WO"
@@ -2678,8 +2717,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "2 WO"
@@ -2691,8 +2730,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "2 WA"
@@ -2704,8 +2743,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           [
             "3 WA",
@@ -2721,14 +2760,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-12/Chara_Square_Thumbnail_106301.png?itok=90c1RNKC"
   },
   {
-    "name":"Murasa",
-    "attacks":[
+    "name": "Murasa",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "2 WA"
@@ -2738,8 +2778,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WA",
           [
             "2 WA"
@@ -2751,8 +2791,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WA",
           "",
           [
@@ -2762,8 +2802,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WA",
           [
             "2 WA"
@@ -2775,8 +2815,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WA",
           [
             "2 WA"
@@ -2789,14 +2829,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-10/Chara_Square_Thumbnail_107501.png?itok=K5XsFsFO"
   },
   {
-    "name":"Minoriko",
-    "attacks":[
+    "name": "Minoriko",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 ME"
@@ -2809,8 +2850,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 WA"
@@ -2823,8 +2864,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ME",
           [
             "2 ME"
@@ -2836,8 +2877,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           [
             "2 WO"
@@ -2849,8 +2890,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ME",
           [
             "2 ME",
@@ -2866,14 +2907,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-08/Chara_Square_Thumbnail_106001.png?itok=9zCmOvNj"
   },
   {
-    "name":"Momiji",
-    "attacks":[
+    "name": "Momiji",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -2883,8 +2925,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           [
@@ -2894,8 +2936,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 WO"
@@ -2907,8 +2949,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           "",
           [
@@ -2918,8 +2960,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           "",
           [
@@ -2928,14 +2970,15 @@
           ""
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2022-01/Chara_Square_Thumbnail_104601.png?itok=-Pf7Gh2L"
   },
   {
-    "name":"Nemuno",
-    "attacks":[
+    "name": "Nemuno",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           [
@@ -2948,8 +2991,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -2959,8 +3002,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ME",
           "",
           "",
@@ -2970,8 +3013,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ME",
           [
             "3 ME"
@@ -2981,8 +3024,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           [
             "1 FI",
@@ -2998,14 +3041,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-10/Chara_Square_Thumbnail_104701_0.png?itok=HdfI4YsU"
   },
   {
-    "name":"Nitori",
-    "attacks":[
+    "name": "Nitori",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -3013,8 +3057,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -3022,8 +3066,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WA",
           "",
           [
@@ -3035,8 +3079,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ME",
           "",
           [
@@ -3048,22 +3092,23 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
           ""
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/104001_Nitori_Kawashiro_SQ.png?itok=iwlwH95X"
   },
   {
-    "name":"Okina",
-    "attacks":[
+    "name": "Okina",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 ST"
@@ -3075,8 +3120,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           "",
           [
@@ -3088,8 +3133,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 ST"
@@ -3101,8 +3146,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           [
             "2 FI"
@@ -3114,8 +3159,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ST",
           [
             "1 EA",
@@ -3131,14 +3176,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-09/Chara_Square_Thumbnail_106901.png?itok=un_Y6rhL"
   },
   {
-    "name":"Patchouli",
-    "attacks":[
+    "name": "Patchouli",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 ME"
@@ -3157,8 +3203,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 WO"
@@ -3177,8 +3223,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           [
             "2 MO"
@@ -3192,8 +3238,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 SU",
           [
             "2 SU"
@@ -3207,8 +3253,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 FI",
@@ -3230,14 +3276,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/100601_Patchouli_Knowledge_SQ.png?itok=jF15-Fmp"
   },
   {
-    "name":"Ran",
-    "attacks":[
+    "name": "Ran",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -3245,8 +3292,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -3254,8 +3301,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -3263,8 +3310,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -3272,8 +3319,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 EA",
           [
             "3 EA"
@@ -3284,14 +3331,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/101301_Ran_Yakumo_SQ.png?itok=mNhD-_FI"
   },
   {
-    "name":"Reimu",
-    "attacks":[
+    "name": "Reimu",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -3299,8 +3347,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 SU",
           "",
           "",
@@ -3308,8 +3356,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 SU"
@@ -3323,8 +3371,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 SU",
           "",
           "",
@@ -3332,8 +3380,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 SU",
           "",
           [
@@ -3344,14 +3392,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/100101_Reimu_Hakurei_SQ.png?itok=5jenvyrY"
   },
   {
-    "name":"Reimu (Shaman)",
-    "attacks":[
+    "name": "Reimu (Shaman)",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           "",
           [
@@ -3365,8 +3414,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 SU",
           [
             "1 SU",
@@ -3380,8 +3429,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           [
             "2 WO"
@@ -3397,8 +3446,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 SU",
           "",
           [
@@ -3412,8 +3461,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 SU",
           [
             "2 SU"
@@ -3428,14 +3477,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-12/3011reimu.png?itok=ChMk6IZ1"
   },
   {
-    "name":"Reimu (Scarlet)",
-    "attacks":[
+    "name": "Reimu (Scarlet)",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           "",
           [
@@ -3449,8 +3499,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 ME"
@@ -3466,8 +3516,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           [
             "2 WO"
@@ -3483,8 +3533,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 SU",
           "",
           [
@@ -3496,8 +3546,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           [
             "2 WO"
@@ -3512,14 +3562,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-11/Chara_Square_400101.png?itok=DLAX1Q1F"
   },
   {
-    "name":"Rei`sen",
-    "attacks":[
+    "name": "Rei`sen",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -3527,8 +3578,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -3536,8 +3587,8 @@
         ]
       },
       {
-        "target":"Aid",
-        "boost":[
+        "target": "Aid",
+        "boost": [
           "",
           "",
           "",
@@ -3545,8 +3596,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -3554,22 +3605,23 @@
         ]
       },
       {
-        "target":"Aid",
-        "boost":[
+        "target": "Aid",
+        "boost": [
           "",
           "",
           "",
           ""
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-07/102301_Reisen_SQ.png?itok=oAXuTuDx"
   },
   {
-    "name":"Reisen",
-    "attacks":[
+    "name": "Reisen",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -3579,8 +3631,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           "",
           "",
@@ -3588,8 +3640,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           [
             "2 MO"
@@ -3601,8 +3653,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           "",
           [
@@ -3614,8 +3666,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           [
             "2 MO"
@@ -3626,14 +3678,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/101501_Reisen_Udongein_Inaba_SQ.png?itok=sZGQAbjQ"
   },
   {
-    "name":"Reisen (Eternal)",
-    "attacks":[
+    "name": "Reisen (Eternal)",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 MO"
@@ -3646,8 +3699,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 FI"
@@ -3663,8 +3716,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           [
             "3 MO"
@@ -3680,8 +3733,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           [
             "1 ME",
@@ -3698,8 +3751,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 MO",
           [
             "3 MO",
@@ -3715,14 +3768,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2022-01/Square_7_updated.png?itok=SuI-o3MW"
   },
   {
-    "name":"Remilia",
-    "attacks":[
+    "name": "Remilia",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -3730,8 +3784,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -3739,8 +3793,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -3748,8 +3802,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           [
             "2 FI"
@@ -3761,8 +3815,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 FI",
           "",
           "",
@@ -3771,14 +3825,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/100301_Remilia_Scarlet_SQ.png?itok=Eyk61f5E"
   },
   {
-    "name":"Rin",
-    "attacks":[
+    "name": "Rin",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           [
             "2 MO"
@@ -3788,8 +3843,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 FI"
@@ -3803,8 +3858,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           [
             "2 MO"
@@ -3816,8 +3871,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 FI",
           [
             "2 FI"
@@ -3829,8 +3884,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 MO",
           [
             "1 FI",
@@ -3846,14 +3901,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-11/Chara_SQ_105201.png?itok=U0H_pWlg"
   },
   {
-    "name":"Ringo",
-    "attacks":[
+    "name": "Ringo",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -3863,8 +3919,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -3874,8 +3930,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           "",
           "",
@@ -3885,8 +3941,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 MO",
           "",
           "",
@@ -3896,8 +3952,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           [
             "2 MO",
@@ -3913,14 +3969,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-07/102201_Ringo_SQ.png?itok=3BtH6Yrl"
   },
   {
-    "name":"Rumia",
-    "attacks":[
+    "name": "Rumia",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 WA"
@@ -3930,8 +3987,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -3939,8 +3996,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WA",
           "",
           [
@@ -3954,8 +4011,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           "",
           [
@@ -3967,8 +4024,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           [
             "2 MO",
@@ -3984,14 +4041,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-10/Chara_Square_Thumbnail_107301.png?itok=f3d5pL8f"
   },
   {
-    "name":"Sagume",
-    "attacks":[
+    "name": "Sagume",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 MO"
@@ -4001,8 +4059,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 MO"
@@ -4012,8 +4070,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           "",
           [
@@ -4025,8 +4083,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 MO",
           "",
           [
@@ -4038,8 +4096,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ST",
           [
             "1 MO",
@@ -4055,14 +4113,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-12/Chara_Square_Thumbnail_108101_0.png?itok=3m2Uolx4"
   },
   {
-    "name":"Sakuya",
-    "attacks":[
+    "name": "Sakuya",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -4072,8 +4131,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -4083,8 +4142,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ME",
           "",
           "",
@@ -4094,8 +4153,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -4103,8 +4162,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ME",
           "",
           "",
@@ -4113,14 +4172,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/100501_Sakuya_Izayoi_SQ.png?itok=JH3_0cpq"
   },
   {
-    "name":"Sakuya (Servant)",
-    "attacks":[
+    "name": "Sakuya (Servant)",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 ME"
@@ -4136,8 +4196,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           [
             "1 ME",
@@ -4151,8 +4211,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ME",
           [
             "1 ME",
@@ -4169,8 +4229,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 MO",
           "",
           [
@@ -4184,8 +4244,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           [
             "2 MO"
@@ -4200,14 +4260,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2022-01/Chara_Square_Thumbnail_300501.png?itok=UWOxRhN5"
   },
   {
-    "name":"Sakuya (Scarlet)",
-    "attacks":[
+    "name": "Sakuya (Scarlet)",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ME",
           "",
           "",
@@ -4217,8 +4278,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ME",
           "",
           "",
@@ -4228,8 +4289,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 FI",
           [
             "1 FI",
@@ -4248,8 +4309,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 MO",
           [
             "1 FI",
@@ -4266,8 +4327,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           [
             "2 FI"
@@ -4280,14 +4341,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2022-01/Chara_Square_Thumbnail_400501.png?itok=fy8JJl4L"
   },
   {
-    "name":"Sanae",
-    "attacks":[
+    "name": "Sanae",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -4297,8 +4359,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -4308,8 +4370,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ST",
           "",
           "",
@@ -4319,8 +4381,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WA",
           "",
           "",
@@ -4330,8 +4392,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           [
             "1 ME",
@@ -4349,14 +4411,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/103701_Sanae_Kochiya_SQ.png?itok=11D2bHk-"
   },
   {
-    "name":"Sanae (Oracle)",
-    "attacks":[
+    "name": "Sanae (Oracle)",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ST",
           [
             "1 ST",
@@ -4373,8 +4436,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           [
             "1 ST",
@@ -4388,8 +4451,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ST",
           [
             "1 ST",
@@ -4406,8 +4469,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           "",
           [
@@ -4418,8 +4481,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ST",
           [
             "3 ST"
@@ -4434,14 +4497,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2022-01/Chara_Square_Thumbnail_303701.png?itok=fBS1zPZE"
   },
   {
-    "name":"Satono",
-    "attacks":[
+    "name": "Satono",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 FI"
@@ -4453,8 +4517,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           [
             "1 FI",
@@ -4468,8 +4532,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 FI"
@@ -4482,8 +4546,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           [
             "2 FI"
@@ -4499,8 +4563,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           [
             "1 FI",
@@ -4516,14 +4580,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2022-02/Chara_Square_Thumbnail_107001.png?itok=qKCoErPD"
   },
   {
-    "name":"Satori",
-    "attacks":[
+    "name": "Satori",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -4531,8 +4596,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -4540,8 +4605,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           "",
           [
@@ -4551,8 +4616,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 FI",
           "",
           [
@@ -4562,8 +4627,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 EA",
           [
             "2 EA",
@@ -4579,14 +4644,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-09/Chara_Square_Thumbnail_105001.png?itok=RJ4RMFAA"
   },
   {
-    "name":"Seiran",
-    "attacks":[
+    "name": "Seiran",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -4596,8 +4662,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -4607,8 +4673,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 MO",
           "",
           "",
@@ -4618,8 +4684,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 EA",
           "",
           "",
@@ -4629,8 +4695,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 EA",
           [
             "2 EA"
@@ -4641,14 +4707,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-07/102101_Seiran_SQ.png?itok=LKAA3_iC"
   },
   {
-    "name":"Shion",
-    "attacks":[
+    "name": "Shion",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -4656,8 +4723,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "2 FI"
@@ -4667,8 +4734,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           "",
           [
@@ -4678,8 +4745,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 FI",
           "",
           [
@@ -4689,8 +4756,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "3 FI"
@@ -4701,14 +4768,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-10/Chara_Square_Thumbnail_106601_0.png?itok=fG4PCsGx"
   },
   {
-    "name":"Shizuha",
-    "attacks":[
+    "name": "Shizuha",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 WO"
@@ -4721,8 +4789,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 WO"
@@ -4735,8 +4803,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           "",
           [
@@ -4748,8 +4816,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ME",
           "",
           [
@@ -4761,8 +4829,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           [
             "1 ME",
@@ -4778,14 +4846,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-08/Chara_Square_Thumbnail_105901.png?itok=Ns5K8xDp"
   },
   {
-    "name":"Shou",
-    "attacks":[
+    "name": "Shou",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 ME"
@@ -4799,8 +4868,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 SU",
           [
             "2 SU"
@@ -4812,8 +4881,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           [
@@ -4825,8 +4894,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 SU",
           "",
           [
@@ -4838,8 +4907,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ME",
           [
             "1 ME",
@@ -4852,14 +4921,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-10/Chara_Square_Thumbnail_107401_0.png?itok=8ynwGBpN"
   },
   {
-    "name":"Star Sapphire",
-    "attacks":[
+    "name": "Star Sapphire",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -4869,8 +4939,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -4880,8 +4950,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ST",
           "",
           [
@@ -4891,8 +4961,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ST",
           "",
           "",
@@ -4900,8 +4970,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ST",
           "",
           [
@@ -4912,14 +4982,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/103501_Star_Sapphire_SQ.png?itok=q6clYZzX"
   },
   {
-    "name":"Suika",
-    "attacks":[
+    "name": "Suika",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           "",
           "",
@@ -4930,8 +5001,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -4942,8 +5013,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -4951,8 +5022,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 FI",
           [
             "2 FI"
@@ -4964,8 +5035,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ME",
           [
             "2 ME"
@@ -4980,14 +5051,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-06/104801_Suika_Ibuki_SQ.png?itok=SdyL-1xy"
   },
   {
-    "name":"Sunny Milk",
-    "attacks":[
+    "name": "Sunny Milk",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -4997,8 +5069,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -5008,8 +5080,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 SU",
           "",
           [
@@ -5019,8 +5091,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 SU",
           "",
           "",
@@ -5028,8 +5100,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 SU",
           "",
           [
@@ -5040,14 +5112,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/103301_Sunny_Milk_SQ.png?itok=P3p4wTON"
   },
   {
-    "name":"Suwako",
-    "attacks":[
+    "name": "Suwako",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 WA"
@@ -5059,8 +5132,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 EA"
@@ -5072,8 +5145,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ME",
           "",
           "",
@@ -5083,8 +5156,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WA",
           [
             "1 WA",
@@ -5101,8 +5174,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 EA"
@@ -5117,14 +5190,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-07/Chara_Square_Thumbnail_103901.png?itok=-1arUuI0"
   },
   {
-    "name":"Tenshi",
-    "attacks":[
+    "name": "Tenshi",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           [
@@ -5138,8 +5212,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 EA",
           "",
           [
@@ -5150,8 +5224,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 EA",
           [
             "2 EA"
@@ -5163,8 +5237,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 FI"
@@ -5185,8 +5259,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 EA",
           [
             "2 EA",
@@ -5202,14 +5276,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2022-01/Chara_Square_Thumbnail_108901_0.png?itok=dtKjX2Kr"
   },
   {
-    "name":"Tewi",
-    "attacks":[
+    "name": "Tewi",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -5217,8 +5292,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -5226,8 +5301,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 SU",
           "",
           [
@@ -5239,8 +5314,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ST",
           [
             "2 ST"
@@ -5252,8 +5327,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 SU",
           [
             "1 ST",
@@ -5266,14 +5341,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-07/104201_Tewi_Inaba_SQ.png?itok=9vX556kO"
   },
   {
-    "name":"Miko",
-    "attacks":[
+    "name": "Miko",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 SU",
           [
             "2 SU"
@@ -5285,8 +5361,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 ME"
@@ -5298,8 +5374,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 ME"
@@ -5315,8 +5391,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 SU",
           [
             "2 SU"
@@ -5328,8 +5404,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ME",
           [
             "2 ME"
@@ -5344,14 +5420,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2022-01/Chara_Square_Thumbnail_109101.png?itok=htnT_bZ3"
   },
   {
-    "name":"Okuu",
-    "attacks":[
+    "name": "Okuu",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 FI"
@@ -5363,8 +5440,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 SU",
           [
             "2 SU"
@@ -5376,8 +5453,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 SU",
           [
             "2 SU"
@@ -5389,8 +5466,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           [
             "2 FI"
@@ -5402,8 +5479,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 SU",
           [
             "1 FI",
@@ -5419,14 +5496,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-12/Char_Square_Thumbnail_105301.png?itok=Q8URo_Oi"
   },
   {
-    "name":"Toyohime",
-    "attacks":[
+    "name": "Toyohime",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 ME"
@@ -5438,8 +5516,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 WA"
@@ -5451,8 +5529,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WA",
           "",
           [
@@ -5463,8 +5541,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 FI",
           "",
           [
@@ -5475,8 +5553,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           "",
           [
@@ -5489,14 +5567,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-08/101701_Watatsuki_no_Yorihime_SQ_0.png?itok=qdcXWrJT"
   },
   {
-    "name":"Yorihime",
-    "attacks":[
+    "name": "Yorihime",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 WO"
@@ -5508,8 +5587,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 ME"
@@ -5521,8 +5600,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ME",
           "",
           [
@@ -5533,8 +5612,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 MO",
           "",
           "",
@@ -5544,8 +5623,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           [
@@ -5559,14 +5638,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-08/Chara_Square_Thumbnail_101601.png?itok=PdBuiTRA"
   },
   {
-    "name":"Yatsuhashi",
-    "attacks":[
+    "name": "Yatsuhashi",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -5576,8 +5656,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           [
@@ -5587,8 +5667,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           "",
           [
@@ -5598,8 +5678,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           "",
           [
@@ -5609,8 +5689,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           [
             "1 SU",
@@ -5626,14 +5706,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-10/Chara_Square_Thumbnail_106801.png?itok=ohfoaGTL"
   },
   {
-    "name":"Youmu",
-    "attacks":[
+    "name": "Youmu",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 ME"
@@ -5643,8 +5724,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 ME"
@@ -5654,8 +5735,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ME",
           [
             "2 ME"
@@ -5665,8 +5746,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ME",
           [
             "2 ME"
@@ -5676,8 +5757,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 MO",
           [
             "2 MO"
@@ -5688,14 +5769,15 @@
           ""
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/101101_Youmu_Konpaku_SQ.png?itok=P7z_od-J"
   },
   {
-    "name":"Youmu (Cherry)",
-    "attacks":[
+    "name": "Youmu (Cherry)",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 WA"
@@ -5711,8 +5793,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ME",
           "",
           [
@@ -5726,8 +5808,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ME",
           [
             "1 ME",
@@ -5744,8 +5826,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WA",
           [
             "1 ME",
@@ -5762,8 +5844,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           [
             "2 WO"
@@ -5778,14 +5860,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2022-02/Chara_Square_Thumbnail_401101.png?itok=0uZeAheh"
   },
   {
-    "name":"Youmu (Gardener)",
-    "attacks":[
+    "name": "Youmu (Gardener)",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WA",
           "",
           [
@@ -5798,8 +5881,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 SU",
           [
             "2 SU"
@@ -5812,8 +5895,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WA",
           [
             "2 WA"
@@ -5829,8 +5912,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 SU",
           [
             "2 SU"
@@ -5846,8 +5929,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 SU",
           [
             "2 SU"
@@ -5862,14 +5945,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-12/3011youmu_0.png?itok=b2VBmjdm"
   },
   {
-    "name":"Youmu (MSM)",
-    "attacks":[
+    "name": "Youmu (MSM)",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           [
             "1 ME"
@@ -5885,8 +5969,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ME",
           [
             "2 ME",
@@ -5897,8 +5981,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 FI",
           [
             "2 FI",
@@ -5915,8 +5999,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           [
             "1 ME",
@@ -5933,8 +6017,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ME",
           [
             "1 FI",
@@ -5952,14 +6036,15 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-09/Chara_Square_Thumbnail_201101.png?itok=YBvC94Ut"
   },
   {
-    "name":"Yukari",
-    "attacks":[
+    "name": "Yukari",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -5967,8 +6052,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 EA",
           "",
           "",
@@ -5976,8 +6061,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 EA",
           "",
           [
@@ -5989,8 +6074,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 EA"
@@ -6006,8 +6091,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           [
             "1 EA"
@@ -6018,14 +6103,15 @@
           ""
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-06/100901_Yukari_Yakumo_SQ.png?itok=xRFpO4Ay"
   },
   {
-    "name":"Yuugi",
-    "attacks":[
+    "name": "Yuugi",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           "",
@@ -6036,8 +6122,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ST",
           [
             "1 ST",
@@ -6048,8 +6134,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 ST",
           [
             "1 EA",
@@ -6063,8 +6149,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ME",
           [
             "1 EA",
@@ -6078,8 +6164,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 ME",
           [
             "1 ME",
@@ -6095,14 +6181,81 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-11/Chara_Square_Thumbnail_104901.png?itok=FRmXEnTM"
   },
   {
-    "name":"Yuyuko",
-    "attacks":[
+    "name": "Yuuka",
+    "attacks": [
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
+          "",
+          ["1 WO"],
+          ["3 WO"],
+          ""
+        ]
+      },
+      {
+        "target": "Solo",
+        "boost": [
+          "1 WO",
+          "",
+          ["2 WO"],
+          ["3 WO"]
+        ]
+      },
+      {
+        "target": "All",
+        "boost": [
+          "1 WO",
+          [
+            "1 ST",
+            "1 WO"
+          ],
+          "",
+          [
+            "1 ST",
+            "2 WO"
+          ]
+        ]
+      },
+      {
+        "target": "All",
+        "boost": [
+          "1 ST",
+          [
+            "1 ST",
+            "1 WO"
+          ],
+          "",
+          ["2 ST", "1 WO"]
+        ]
+      },
+      {
+        "target": "All",
+        "boost": [
+          "1 ST",
+          [
+            "1 ST",
+            "1 WO"
+          ],
+          [
+            "2 ST",
+            "2 WO"
+          ],
+          ""
+        ]
+      }
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-12/Chara_Square_Thumbnail_108401.png?itok=TPT2RaEA"
+  },
+  {
+    "name": "Yuyuko",
+    "attacks": [
+      {
+        "target": "All",
+        "boost": [
           "",
           "",
           [
@@ -6112,8 +6265,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           "",
@@ -6121,8 +6274,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WO",
           "",
           [
@@ -6132,8 +6285,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           "",
           [
@@ -6143,8 +6296,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WO",
           "",
           [
@@ -6153,14 +6306,15 @@
           ""
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-05/101001_Yuyuko_Saigyouji_SQ.png?itok=V-1z_O2V"
   },
   {
-    "name":"Yuyuko (TGM)",
-    "attacks":[
+    "name": "Yuyuko (TGM)",
+    "attacks": [
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "",
           "",
           [
@@ -6172,8 +6326,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WA",
           "",
           [
@@ -6185,8 +6339,8 @@
         ]
       },
       {
-        "target":"Solo",
-        "boost":[
+        "target": "Solo",
+        "boost": [
           "1 WA",
           [
             "2 WA"
@@ -6198,8 +6352,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "",
           "",
           [
@@ -6211,8 +6365,8 @@
         ]
       },
       {
-        "target":"All",
-        "boost":[
+        "target": "All",
+        "boost": [
           "1 WA",
           [
             "4 WA"
@@ -6225,6 +6379,7 @@
           ]
         ]
       }
-    ]
+    ],
+    "image": "https://gamepress.gg/lostword/sites/lostword/files/styles/thumbnail/public/2021-10/Square%20%2315637.png?itok=LDq4NsLF"
   }
 ]
