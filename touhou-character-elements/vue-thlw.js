@@ -83,6 +83,8 @@ Vue.createApp({
           character.owned = isOwned
         })
 
+        if(this.owned_characters.length == 0) this.isModalVisible == true
+
         this.characters = characters
       })
   }

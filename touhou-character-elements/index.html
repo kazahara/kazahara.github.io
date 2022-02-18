@@ -68,6 +68,7 @@
      @click.self="close_modal">
       <div class="modal">
         <div class="header">
+          <p v-show="owned_characters.length == 0">You don't have any owned characters. Kindly click the portrait of a character to add it to your owned characters</p>
           <p>Owned Unique Characters: {{ owned_characters.length }} / {{ characters.length }}</p>
           <div class="checkbox-label">
             <input type="checkbox" id="checkbox" v-model="show_only_owned_characters" />
