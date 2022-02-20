@@ -2,13 +2,13 @@ Vue.createApp({
   data() {
     return {
       characters: [],
-      owned_character_names: new Set(),
+      ownedCharacterNames: new Set(),
       displayAllCharacters: false,
       showOnlyOwnedCharacters: false,
       displayNamesOnly: false,
       isModalVisible: false,
       isNotFiltered: true,
-      weak_elements: {
+      weakElements: {
         EA: false,
         FI: false,
         ME: false,
@@ -21,25 +21,25 @@ Vue.createApp({
     }
   },
   computed: {
-    filtered_characters(){
+    filteredCharacters(){
       if(this.isNotFiltered) {
-        if(this.displayAllCharacters) return this.sorted_characters
-        return this.owned_characters
+        if(this.displayAllCharacters) return this.sortedCharacters
+        return this.ownedCharacters
       }
       
-      if(this.displayAllCharacters) return this.highlighted_characters
-      return this.highlighted_owned_characters
+      if(this.displayAllCharacters) return this.highlightedCharacters
+      return this.highlightedOwnedCharacters
     },
-    highlighted_characters(){
-      return this.sorted_characters.filter(character => character.isHighlighted)
+    highlightedCharacters(){
+      return this.sortedCharacters.filter(character => character.isHighlighted)
     },
-    highlighted_owned_characters(){
-      return this.owned_characters.filter(character => character.isHighlighted)
+    highlightedOwnedCharacters(){
+      return this.ownedCharacters.filter(character => character.isHighlighted)
     },
-    owned_characters() {
-      return this.sorted_characters.filter(character => character.owned)
+    ownedCharacters() {
+      return this.sortedCharacters.filter(character => character.owned)
     },
-    sorted_characters(){
+    sortedCharacters(){
       return this.characters.sort((a, b) => {
         if (a.name < b.name) return -1
         if (a.name > b.name) return 1
@@ -48,59 +48,59 @@ Vue.createApp({
     }
   },
   methods: {
-    highlight(raw_element) {
-      let element = raw_element.substring(2,4)
-      if(this.weak_elements[element]) return element
+    highlight(rawElement) {
+      let element = rawElement.substring(2,4)
+      if(this.weakElements[element]) return element
     },
-    toggle_weak_element(key) {
-      this.weak_elements[key] = !this.weak_elements[key]
+    toggleWeakElement(key) {
+      this.weakElements[key] = !this.weakElements[key]
 
       this.characters.forEach(character => {
         let isHighlighted = false
         character.elements.forEach(element => {
-          if(this.weak_elements[element]) isHighlighted = true
+          if(this.weakElements[element]) isHighlighted = true
         })
         character.isHighlighted = isHighlighted
       })
 
-      if(Object.values(this.weak_elements).filter(e => e).length == 0) this.isNotFiltered = true
+      if(Object.values(this.weakElements).filter(e => e).length == 0) this.isNotFiltered = true
       else this.isNotFiltered = false
     },
-    toggle_owned_character_names(name, index){
+    toggleOwnedCharacterNames(name, index){
       let isOwned = this.characters[index].owned
       this.characters[index].owned = !isOwned
 
-      if(isOwned) this.owned_character_names.delete(name)
-      else this.owned_character_names.add(name)
+      if(isOwned) this.ownedCharacterNames.delete(name)
+      else this.ownedCharacterNames.add(name)
 
-      this.save_owned_character_names()
+      this.saveOwnedCharacterNames()
     },
-    save_owned_character_names(){
-      const parsed = JSON.stringify([...this.owned_character_names])
-      localStorage.setItem("owned_character_names", parsed)
+    saveOwnedCharacterNames(){
+      const parsed = JSON.stringify([...this.ownedCharacterNames])
+      localStorage.setItem("ownedCharacterNames", parsed)
     },
-    show_modal() {
-      this.isModalVisible = true;
+    showModal() {
+      this.isModalVisible = true
     },
-    close_modal() {
-      this.isModalVisible = false;
+    closeModal() {
+      this.isModalVisible = false
     }
   },
   mounted() {
     fetch("https://kazahara.github.io/touhou-character-elements/character_elements.json")
       .then(response => response.json())
       .then(characters => {
-        if(localStorage.getItem("owned_character_names")){
+        if(localStorage.getItem("ownedCharacterNames")){
           try {
-            this.owned_character_names = new Set(JSON.parse(localStorage.getItem("owned_character_names")))
+            this.ownedCharacterNames = new Set(JSON.parse(localStorage.getItem("ownedCharacterNames")))
           } catch (e) {
-            localStorage.removeItem("owned_character_names")
+            localStorage.removeItem("ownedCharacterNames")
           }
         }
 
         characters.forEach(character => {
           let isOwned = false
-          if(this.owned_character_names.has(character.name)) isOwned = true
+          if(this.ownedCharacterNames.has(character.name)) isOwned = true
           character.owned = isOwned
 
           let elements = new Array(5)
@@ -111,7 +111,7 @@ Vue.createApp({
           character.isHighlighted = false
         })
 
-        if(this.owned_character_names.size == 0) this.isModalVisible = true
+        if(this.ownedCharacterNames.size == 0) this.isModalVisible = true
 
         this.characters = characters
       })

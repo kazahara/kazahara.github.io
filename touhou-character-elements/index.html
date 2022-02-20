@@ -10,16 +10,16 @@
 <body>
   <div id="app">
     <div class="sticky filter">
-      <img @click="toggle_weak_element('EA')" :class="{ inactive: !weak_elements.EA }" src="static/EA.png" alt="Earth">
-      <img @click="toggle_weak_element('FI')" :class="{ inactive: !weak_elements.FI }" src="static/FI.webp" alt="Fire">
-      <img @click="toggle_weak_element('ME')" :class="{ inactive: !weak_elements.ME }" src="static/ME.webp" alt="Metal">
-      <img @click="toggle_weak_element('MO')" :class="{ inactive: !weak_elements.MO }" src="static/MO.webp" alt="Moon">
-      <img @click="toggle_weak_element('ST')" :class="{ inactive: !weak_elements.ST }" src="static/ST.webp" alt="Star">
-      <img @click="toggle_weak_element('SU')" :class="{ inactive: !weak_elements.SU }" src="static/SU.webp" alt="Sun">
-      <img @click="toggle_weak_element('WA')" :class="{ inactive: !weak_elements.WA }" src="static/WA.png" alt="Water">
-      <img @click="toggle_weak_element('WO')" :class="{ inactive: !weak_elements.WO }" src="static/WO.png" alt="Wood">
+      <img @click="toggleWeakElement('EA')" :class="{ inactive: !weakElements.EA }" src="static/EA.png" alt="Earth">
+      <img @click="toggleWeakElement('FI')" :class="{ inactive: !weakElements.FI }" src="static/FI.webp" alt="Fire">
+      <img @click="toggleWeakElement('ME')" :class="{ inactive: !weakElements.ME }" src="static/ME.webp" alt="Metal">
+      <img @click="toggleWeakElement('MO')" :class="{ inactive: !weakElements.MO }" src="static/MO.webp" alt="Moon">
+      <img @click="toggleWeakElement('ST')" :class="{ inactive: !weakElements.ST }" src="static/ST.webp" alt="Star">
+      <img @click="toggleWeakElement('SU')" :class="{ inactive: !weakElements.SU }" src="static/SU.webp" alt="Sun">
+      <img @click="toggleWeakElement('WA')" :class="{ inactive: !weakElements.WA }" src="static/WA.png" alt="Water">
+      <img @click="toggleWeakElement('WO')" :class="{ inactive: !weakElements.WO }" src="static/WO.png" alt="Wood">
       <div>
-        <button @click="show_modal">Edit Owned Characters</button>
+        <button @click="showModal">Edit Owned Characters</button>
         <div class="checkbox-label">
           <input type="checkbox" id="displayNamesOnly" v-model="displayNamesOnly" />
           <label for="displayNamesOnly">Display Names Only</label>
@@ -28,7 +28,7 @@
           <input type="checkbox" id="displayAllCharacters" v-model="displayAllCharacters" />
           <label for="displayAllCharacters">Display All Characters</label>
         </div>
-        <p>{{ filtered_characters.length }} / {{ characters.length }}</p>
+        <p>{{ filteredCharacters.length }} / {{ characters.length }}</p>
       </div>
     </div>
 
@@ -45,7 +45,8 @@
           <div class="sticky table-subheader expand" v-else>{{ i-2 }}</div>
         </template>
       </template>
-      <template v-for="(character, charIndex) in filtered_characters" :key="charIndex">
+
+      <template v-for="(character, charIndex) in filteredCharacters" :key="charIndex">
         <div class="expand left-align">
           <p v-show="displayNamesOnly"> {{ character.name }} </p>
           <img v-show="!displayNamesOnly" :src="character.image" :alt="character.name">
@@ -66,24 +67,24 @@
 
     <div class="modal-backdrop" 
      v-show="isModalVisible" 
-     @click.self="close_modal">
+     @click.self="closeModal">
       <div class="modal">
         <div class="header">
-          <p v-show="owned_characters.length == 0">You don't have any owned characters. Kindly click the portrait of a character to add it to your owned characters</p>
-          <p>Owned Unique Characters: {{ owned_characters.length }} / {{ characters.length }}</p>
+          <p v-show="ownedCharacters.length == 0">You don't have any owned characters. Kindly click the portrait of a character to add it to your owned characters</p>
+          <p>Owned Unique Characters: {{ ownedCharacters.length }} / {{ characters.length }}</p>
           <div class="checkbox-label">
             <input type="checkbox" id="showOnlyOwnedCharacters" v-model="showOnlyOwnedCharacters" />
             <label for="showOnlyOwnedCharacters">Show Only Owned Characters</label>
           </div>
         </div>
         <div class="image-grid">
-          <template v-for="(character,index) in sorted_characters">
+          <template v-for="(character,index) in sortedCharacters">
             <img 
             v-show="(character.owned ^ false) || (showOnlyOwnedCharacters ^ true)" 
             :class="{ inactive: !character.owned }"
             :src="character.image" 
             :alt="character.name" 
-            @click="toggle_owned_character_names(character.name, index)"
+            @click="toggleOwnedCharacterNames(character.name, index)"
             >
           </template>
         </div>
