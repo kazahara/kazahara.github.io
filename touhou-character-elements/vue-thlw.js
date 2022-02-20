@@ -67,11 +67,12 @@ Vue.createApp({
       else this.isNotFiltered = false
     },
     toggle_owned_character_names(name, index){
-      this.characters[index].owned = !this.characters[index].owned
+      let isOwned = this.characters[index].owned
+      this.characters[index].owned = !isOwned
 
-      if(this.owned_character_names.has(name)) this.owned_character_names.delete(name)
+      if(isOwned) this.owned_character_names.delete(name)
       else this.owned_character_names.add(name)
-      
+
       this.save_owned_character_names()
     },
     save_owned_character_names(){
