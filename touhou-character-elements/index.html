@@ -10,48 +10,49 @@
 <body>
   <div id="app">
     <div class="sticky filter">
-      <img @click="toggle_weak_element('EA')" :class="{ inactive: !EA }" src="static/EA.png" alt="Earth">
-      <img @click="toggle_weak_element('FI')" :class="{ inactive: !FI }" src="static/FI.webp" alt="Fire">
-      <img @click="toggle_weak_element('ME')" :class="{ inactive: !ME }" src="static/ME.webp" alt="Metal">
-      <img @click="toggle_weak_element('MO')" :class="{ inactive: !MO }" src="static/MO.webp" alt="Moon">
-      <img @click="toggle_weak_element('ST')" :class="{ inactive: !ST }" src="static/ST.webp" alt="Star">
-      <img @click="toggle_weak_element('SU')" :class="{ inactive: !SU }" src="static/SU.webp" alt="Sun">
-      <img @click="toggle_weak_element('WA')" :class="{ inactive: !WA }" src="static/WA.png" alt="Water">
-      <img @click="toggle_weak_element('WO')" :class="{ inactive: !WO }" src="static/WO.png" alt="Wood">
+      <img @click="toggle_weak_element('EA')" :class="{ inactive: !weak_elements.EA }" src="static/EA.png" alt="Earth">
+      <img @click="toggle_weak_element('FI')" :class="{ inactive: !weak_elements.FI }" src="static/FI.webp" alt="Fire">
+      <img @click="toggle_weak_element('ME')" :class="{ inactive: !weak_elements.ME }" src="static/ME.webp" alt="Metal">
+      <img @click="toggle_weak_element('MO')" :class="{ inactive: !weak_elements.MO }" src="static/MO.webp" alt="Moon">
+      <img @click="toggle_weak_element('ST')" :class="{ inactive: !weak_elements.ST }" src="static/ST.webp" alt="Star">
+      <img @click="toggle_weak_element('SU')" :class="{ inactive: !weak_elements.SU }" src="static/SU.webp" alt="Sun">
+      <img @click="toggle_weak_element('WA')" :class="{ inactive: !weak_elements.WA }" src="static/WA.png" alt="Water">
+      <img @click="toggle_weak_element('WO')" :class="{ inactive: !weak_elements.WO }" src="static/WO.png" alt="Wood">
       <div>
         <button @click="show_modal">Edit Owned Characters</button>
         <div class="checkbox-label">
-          <input type="checkbox" id="displayNamesOnly" v-model="display_names_only" />
+          <input type="checkbox" id="displayNamesOnly" v-model="displayNamesOnly" />
           <label for="displayNamesOnly">Display Names Only</label>
         </div>
         <div class="checkbox-label">
-          <input type="checkbox" id="displayAllCharacters" v-model="display_all_characters" />
+          <input type="checkbox" id="displayAllCharacters" v-model="displayAllCharacters" />
           <label for="displayAllCharacters">Display All Characters</label>
         </div>
+        <p>{{ filtered_characters.length }} / {{ characters.length }}</p>
       </div>
     </div>
 
     <div class="grid">
-      <div class="sticky table-header expand span-row-grid-2">Name</div>
-      <div class="sticky table-header expand span-column-grid-5">Spread</div>
-      <div class="sticky table-header expand span-column-grid-5">Focus</div>
-      <div class="sticky table-header expand span-column-grid-5">Spell Card 1</div>
-      <div class="sticky table-header expand span-column-grid-5">Spell Card 2</div>
-      <div class="sticky table-header expand span-column-grid-5">Last Word</div>
+      <div class="sticky grid-item table-header expand span-row-grid-2">Name</div>
+      <div class="sticky grid-item table-header expand span-column-grid-5">Spread</div>
+      <div class="sticky grid-item table-header expand span-column-grid-5">Focus</div>
+      <div class="sticky grid-item table-header expand span-column-grid-5">Spell Card 1</div>
+      <div class="sticky grid-item table-header expand span-column-grid-5">Spell Card 2</div>
+      <div class="sticky grid-item table-header expand span-column-grid-5">Last Word</div>
       <template v-for="n in 5">
         <template v-for="i in 5">
-          <div class="sticky table-subheader expand" v-if="i-2 == -1">Target</div>
-          <div class="sticky table-subheader expand" v-else>{{ i-2 }}</div>
+          <div class="sticky grid-item table-subheader expand" v-if="i-2 == -1">Target</div>
+          <div class="sticky grid-item table-subheader expand" v-else>{{ i-2 }}</div>
         </template>
       </template>
-      <template v-for="character in filtered_characters">
-        <div class="expand left-align">
-          <img v-show="!display_names_only" :src="character.image" :alt="character.name">
-          <p v-show="display_names_only"> {{ character.name }} </p>
+      <div class="contents" v-for="(character, charIndex) in filtered_characters" :key="charIndex">
+        <div class="grid-item expand left-align">
+          <p v-show="displayNamesOnly"> {{ character.name }} </p>
+          <img v-show="!displayNamesOnly" :src="character.image" :alt="character.name">
         </div>
         <template v-for="attack in character.attacks">
-          <div>{{ attack.target }}</div>
-          <div class="elements" v-for="(elements, index) in attack.boost">
+          <div class="grid-item" :class="[attack.target == 'All' ? 'all-target' : '']">{{ attack.target }}</div>
+          <div class="grid-item elements" v-for="(elements, index) in attack.boost">
             <template v-if="index == 0">
               <div class="expand" :class="highlight(elements)">{{ elements }}</div>
             </template>
@@ -60,7 +61,7 @@
             </template>
           </div>
         </template>
-      </template>
+      </div>
     </div>
 
     <div class="modal-backdrop" 
@@ -71,25 +72,24 @@
           <p v-show="owned_characters.length == 0">You don't have any owned characters. Kindly click the portrait of a character to add it to your owned characters</p>
           <p>Owned Unique Characters: {{ owned_characters.length }} / {{ characters.length }}</p>
           <div class="checkbox-label">
-            <input type="checkbox" id="checkbox" v-model="show_only_owned_characters" />
-            <label for="checkbox">Show Only Owned Characters</label>
+            <input type="checkbox" id="showOnlyOwnedCharacters" v-model="showOnlyOwnedCharacters" />
+            <label for="showOnlyOwnedCharacters">Show Only Owned Characters</label>
           </div>
         </div>
         <div class="image-grid">
           <template v-for="(character,index) in sorted_characters">
             <img 
-            v-show="(character.owned ^ false) || (show_only_owned_characters ^ true)" 
+            v-show="(character.owned ^ false) || (showOnlyOwnedCharacters ^ true)" 
             :class="{ inactive: !character.owned }"
             :src="character.image" 
             :alt="character.name" 
-            @click="toggle_owned_characters(character.name, index)"
+            @click="toggle_owned_character_names(character.name, index)"
             >
           </template>
         </div>
       </div>
     </div>
   </div>
-  <!-- <script src="https://unpkg.com/vue@3"></script> -->
   <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
   <script src="vue-thlw.js"></script>
 </html>

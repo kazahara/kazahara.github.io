@@ -47,15 +47,23 @@ body{
   border: 1px solid black;
 }
 
-.grid > * {
+.contents {
+  display: contents;
+}
+
+.grid-item {
   border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.grid > *:nth-child(n+32){
+div.contents{
   min-height: 108px;
+}
+
+div.contents > * {
+  min-height: inherit;
 }
 
 .span-row-grid-2{
@@ -167,4 +175,8 @@ body{
 
 p {
   margin: 0;
+}
+
+.all-target {
+  background-color: pink;
 }
