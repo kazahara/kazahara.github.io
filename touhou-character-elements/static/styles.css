@@ -51,19 +51,15 @@ body{
   display: contents;
 }
 
-.grid-item {
+.grid > * {
   border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-div.contents{
+.grid > :nth-child(n+32){
   min-height: 108px;
-}
-
-div.contents > * {
-  min-height: inherit;
 }
 
 .span-row-grid-2{

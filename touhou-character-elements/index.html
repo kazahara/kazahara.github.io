@@ -33,26 +33,26 @@
     </div>
 
     <div class="grid">
-      <div class="sticky grid-item table-header expand span-row-grid-2">Name</div>
-      <div class="sticky grid-item table-header expand span-column-grid-5">Spread</div>
-      <div class="sticky grid-item table-header expand span-column-grid-5">Focus</div>
-      <div class="sticky grid-item table-header expand span-column-grid-5">Spell Card 1</div>
-      <div class="sticky grid-item table-header expand span-column-grid-5">Spell Card 2</div>
-      <div class="sticky grid-item table-header expand span-column-grid-5">Last Word</div>
+      <div class="sticky table-header expand span-row-grid-2">Name</div>
+      <div class="sticky table-header expand span-column-grid-5">Spread</div>
+      <div class="sticky table-header expand span-column-grid-5">Focus</div>
+      <div class="sticky table-header expand span-column-grid-5">Spell Card 1</div>
+      <div class="sticky table-header expand span-column-grid-5">Spell Card 2</div>
+      <div class="sticky table-header expand span-column-grid-5">Last Word</div>
       <template v-for="n in 5">
         <template v-for="i in 5">
-          <div class="sticky grid-item table-subheader expand" v-if="i-2 == -1">Target</div>
-          <div class="sticky grid-item table-subheader expand" v-else>{{ i-2 }}</div>
+          <div class="sticky table-subheader expand" v-if="i-2 == -1">Target</div>
+          <div class="sticky table-subheader expand" v-else>{{ i-2 }}</div>
         </template>
       </template>
-      <div class="contents" v-for="(character, charIndex) in filtered_characters" :key="charIndex">
-        <div class="grid-item expand left-align">
+      <template v-for="(character, charIndex) in filtered_characters" :key="charIndex">
+        <div class="expand left-align">
           <p v-show="displayNamesOnly"> {{ character.name }} </p>
           <img v-show="!displayNamesOnly" :src="character.image" :alt="character.name">
         </div>
         <template v-for="attack in character.attacks">
-          <div class="grid-item" :class="[attack.target == 'All' ? 'all-target' : '']">{{ attack.target }}</div>
-          <div class="grid-item elements" v-for="(elements, index) in attack.boost">
+          <div class="" :class="[attack.target == 'All' ? 'all-target' : '']">{{ attack.target }}</div>
+          <div class="elements" v-for="(elements, index) in attack.boost">
             <template v-if="index == 0">
               <div class="expand" :class="highlight(elements)">{{ elements }}</div>
             </template>
@@ -61,7 +61,7 @@
             </template>
           </div>
         </template>
-      </div>
+      </template>
     </div>
 
     <div class="modal-backdrop" 
