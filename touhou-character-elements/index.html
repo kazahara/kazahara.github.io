@@ -42,11 +42,11 @@
       <template v-for="n in 5">
         <template v-for="i in 5">
           <div class="sticky table-subheader expand" v-if="i-2 == -1">Target</div>
-          <div class="sticky table-subheader expand" v-else>{{ i-2 }}</div>
+          <div class="sticky table-subheader expand" v-else>{{ i-2 }}P</div>
         </template>
       </template>
 
-      <template v-for="(character, charIndex) in filteredCharacters" :key="charIndex">
+      <template v-for="(character, charIndex) in filteredCharacters" :key="chararacter.name">
         <div class="expand left-align">
           <p v-show="displayNamesOnly"> {{ character.name }} </p>
           <img v-show="!displayNamesOnly" :src="character.image" :alt="character.name">
