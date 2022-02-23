@@ -46,7 +46,7 @@
         </template>
       </template>
 
-      <template v-for="(character, charIndex) in filteredCharacters" :key="chararacter.name">
+      <template v-for="(character, charIndex) in filteredCharacters" :key="character.name">
         <div class="expand left-align">
           <p v-show="displayNamesOnly"> {{ character.name }} </p>
           <img v-show="!displayNamesOnly" :src="character.image" :alt="character.name">
@@ -93,4 +93,5 @@
   </div>
   <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
   <script src="vue-thlw.js"></script>
+</body>
 </html>
